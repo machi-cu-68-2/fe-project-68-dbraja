@@ -10,7 +10,7 @@ export default async function TopMenu(){
     return (
         <div className="h-[50px] bg-white fixed top-0 left-0 right-0 z-30 border-t border-b border-gray-200 flex flex-row justify-between items-center px-4 text-black">
             <Link href="/" underline="none">
-                <div className="text-xl font-bold text-blue-600 !mx-5">
+                <div className="text-xl font-bold text-orange-600 !mx-5">
                     JobFair
                     <span className="text-gray-800">2022</span>
                 </div>
@@ -32,13 +32,13 @@ export default async function TopMenu(){
                 ) : (
                     <div className="flex items-center gap-3">
                         <Link href="/api/auth/signin?callbackUrl=/" underline="none">
-                            <div className='text-blue-600 bg-blue-50 text-sm font-semibold !px-5 !py-2 rounded-full hover:bg-blue-100 transition-colors'>
+                            <div className='text-orange-600 bg-orange-50 text-sm font-semibold !px-5 !py-2 rounded-full hover:bg-orange-100 transition-colors'>
                                 Sign-In
                             </div>
                         </Link>
 
                         <Link href="/register" underline="none">
-                            <div className='text-white bg-blue-600 text-sm font-semibold !px-5 !py-2 rounded-full shadow-sm hover:bg-blue-700 hover:shadow-md transition-all'>
+                            <div className='text-white bg-orange-600 text-sm font-semibold !px-5 !py-2 rounded-full shadow-sm hover:bg-orange-700 hover:shadow-md transition-all'>
                                 Register
                             </div>
                         </Link>
