@@ -18,10 +18,11 @@ export default async function TopMenu(){
             
             
             <div className="flex items-center h-full !gap-4 !mx-5">
+                <TopMenuItem title="บริษัท" pageRef="/companies" />
+                <TopMenuItem title="ลงทะเบียน" pageRef="/register" />
                 {
                 session ? (
                     <>
-                        <TopMenuItem title="Booking" pageRef="/booking" />
                         
                         <Link href="/api/auth/signout?callbackUrl=/" underline="none">
                             <div className='bg-gray-100 text-gray-700 text-sm font-medium !px-4 !py-2 rounded-full hover:bg-red-50 hover:text-red-600 transition-all'>
