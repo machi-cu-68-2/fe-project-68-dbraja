@@ -19,7 +19,7 @@ export default async function TopMenu(){
             
             <div className="flex items-center h-full !gap-4 !mx-5">
                 <TopMenuItem title="บริษัท" pageRef="/companies" />
-                <TopMenuItem title="ลงทะเบียน" pageRef="/register" />
+                <TopMenuItem title="จองคิวสัมภาษณ์" pageRef="/booking" />
                 {
                 session ? (
                     <>

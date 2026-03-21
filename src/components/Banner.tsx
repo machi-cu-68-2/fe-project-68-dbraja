@@ -18,9 +18,9 @@ export default function Banner() {
                         ดูบริษัทที่เข้าร่วม
                     </button>
                     </Link>
-                    <Link href="/register">
+                    <Link href="/booking">
                     <button className="bg-white text-orange-600 border border-orange-600 !px-8 !py-3 rounded-full font-semibold hover:bg-orange-50 transition shadow-sm">
-                        ลงทะเบียนล่วงหน้า
+                        จองคิวสัมภาษณ์
                     </button>
                     </Link>
                 </div>
@@ -41,7 +41,7 @@ export default function Banner() {
                         <h3 className="text-xl font-semibold !mb-2">ค้นหาบริษัท</h3>
                         <p className="text-gray-600">เลือกดูรายชื่อบริษัทและตำแหน่งงานที่ตรงกับสายอาชีพคุณ</p>
                         </div>
-                        
+
                         <div className="bg-white !p-8 rounded-xl shadow-sm border border-gray-100">
                         <div className="w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center text-xl font-bold !mx-auto !mb-4">3</div>
                         <h3 className="text-xl font-semibold !mb-2">จองคิวสัมภาษณ์</h3>
